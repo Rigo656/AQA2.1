@@ -37,7 +37,7 @@ public class OrderCardTest {
 
     @Test
     public void shouldSendValidForm1() {
-        driver.get("http://localhost:7777");
+        driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Алексей Смирнов");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79152854444");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
